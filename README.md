@@ -11,19 +11,23 @@
 
 
 ## 🛠️ Requirements
-
+```
+Python	3.8
+PyTorch	1.10+
+CUDA	11.3 (recommended)
+```
 
 ## 📂 Project Structure
 
 
 ## ▶️ Usage
 
-### Train
+### 🏋️ Train
 ```bash
 python train.py 
 ```
 
-### Test
+### 🖊️ Test
 ```bash
 python test.py
 ```
