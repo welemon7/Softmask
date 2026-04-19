@@ -1,7 +1,5 @@
 # Illumination-aware Softmask Guided Shadow Removal
 
-## 📌 Overview
-
 
 ## 🧠 Method
 
@@ -21,20 +19,31 @@
 ## ▶️ Usage
 
 ### Train
-python train.py
+```bash
+python train.py 
+```
 
 ### Test
+```bash
 python test.py
+```
 
 ### 📥 Dataset
 
 Please download datasets from:
 
 ISTD+
+
 ISTD
+
 SRD
+
 WRSD+
 
 ## 🙏 Acknowledgement
 
 Thanks to previous shadow removal works.
+
+## 📧 Contact
+
+For any questions, please open an issue or contact: [236004855@nbu.edu.cn](mailto:236004855@nbu.edu.cn)
