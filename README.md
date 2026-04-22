@@ -7,7 +7,16 @@ Under Review...
 
 
 ## 📊 Results
-Visual Results
+#### Evaluation on WRSD+
+The evaluation results on WRSD+ are as follows
+| Method | PSNR | SSIM | RMSE |
+| :-- | :--: | :--: | :--: |
+| Input Image | 18.87 | 0.825 | 14.76 |
+| ShadowFormer | 24.16 | 0.899 | 8.44 |
+| HomoFormer | 25.85 | 0.913 | 6.99 |
+| **Ours** | **26.29** | **0.923** | **6.63** |
+
+#### Visual Results
 <p align="center">
   <img src="./figure/WRSD+.jpg" width="700"/>
 </p>
@@ -59,13 +68,13 @@ python test.py
 
 Please download datasets from:
 
-*ISTD+ [[link](https://github.com/cvlab-stonybrook/SID)]
+* ISTD+ [[link](https://github.com/cvlab-stonybrook/SID)]
 
-*ISTD [[link](https://github.com/DeepInsight-PCALab/ST-CGAN)]
+* ISTD [[link](https://github.com/DeepInsight-PCALab/ST-CGAN)]
 
-*SRD 
+* SRD 
 
-*WRSD+
+* WRSD+
 
 ## 🙏 Acknowledgement
 
