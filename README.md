@@ -8,10 +8,10 @@ Under Review...
 
 ## 📊 Results
 <p align="center">
-  <img src="./figure/ISTD.tif" width="700"/>
+  <img src="./figure/ISTD.jpg" width="700"/>
 </p>
 <p align="center">
-  <img src="./figure/WRSD+.tif" width="700"/>
+  <img src="./figure/WRSD+.jpg" width="700"/>
 </p>
 
 
