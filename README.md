@@ -8,9 +8,6 @@ Under Review...
 
 ## 📊 Results
 <p align="center">
-  <img src="./figure/ISTD.jpg" width="700"/>
-</p>
-<p align="center">
   <img src="./figure/WRSD+.jpg" width="700"/>
 </p>
 
@@ -18,8 +15,8 @@ Under Review...
 ## 🛠️ Requirements
 ```
 Python	3.8
-PyTorch	1.10+
-CUDA	11.3 (recommended)
+PyTorch	2.7.1
+CUDA	12.8
 ```
 
 ## 📂 Project Structure
@@ -43,7 +40,7 @@ python test.py
 
 Please download datasets from:
 
-ISTD+
+ISTD+ [[link](https://github.com/cvlab-stonybrook/SID)]
 
 ISTD
 
