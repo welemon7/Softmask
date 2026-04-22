@@ -1,12 +1,17 @@
 # Illumination-aware Softmask Guided Shadow Removal
 
+Under Review...
+
 
 ## 🧠 Method
 
 
 ## 📊 Results
 <p align="center">
-  <img src="./figure/WRSD+.png" width="700"/>
+  <img src="./figure/ISTD.tif" width="700"/>
+</p>
+<p align="center">
+  <img src="./figure/WRSD+.tif" width="700"/>
 </p>
 
 
@@ -24,11 +29,13 @@ CUDA	11.3 (recommended)
 
 ### 🏋️ Train
 ```bash
+python train_softmask.py
 python train.py 
 ```
 
 ### 🖊️ Test
 ```bash
+python test_softmask.py
 python test.py
 ```
 
