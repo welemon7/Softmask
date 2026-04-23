@@ -21,6 +21,8 @@ The evaluation results on WRSD+ are as follows
   <img src="./figure/WRSD+.jpg" width="700"/>
 </p>
 
+#### Testing results
+The testing results on dataset WRSD+: [link](https://drive.google.com/drive/folders/1hW1tVF2JSNqEDEKIgFF4wtrJA8vVymDO?usp=sharing)
 
 ## 🛠️ Requirements
 ```
