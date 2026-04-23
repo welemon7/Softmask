@@ -47,7 +47,7 @@ CUDA	12.8
         |-- shadow # shadow image
         |-- non_shadow # shadow-free GT
 ```
-2. You can to modify the following terms in `option.py`
+2. You can modify the following terms in `option.py`
 ```python
 train_dir  # training set path
 test_dir   # testing set path
@@ -80,7 +80,7 @@ Please download datasets from:
 
 ## 🙏 Acknowledgement
 
-Thanks to previous shadow removal works.
+Thanks to previous shadow removal works [ShadowFormer](https://github.com/guolanqing/shadowformer), [HomoFormer](https://github.com/jiexiaou/HomoFormer)... and 2742.
 
 ## 📧 Contact
 
