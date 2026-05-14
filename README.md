@@ -12,7 +12,10 @@ The evaluation results on WRSD+ are as follows
 | Method | PSNR | SSIM | RMSE |
 | :-- | :--: | :--: | :--: |
 | Input Image | 18.87 | 0.825 | 14.76 |
+| UFormer | 25.68 | 0.919 | 6.93 |
+| ShadowFormer | 25.64 | 0.918 | 7.04 |
 | HomoFormer | 25.87 | 0.914 | 7.03 |
+| RASM | 25.68 | 0.920 | 6.88 |
 | **Ours** | **26.29** | **0.923** | **6.63** |
 
 #### Visual Results
