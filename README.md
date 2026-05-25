@@ -5,7 +5,7 @@ Under Review...
 
 ## 🧠 Method
 <p align="center">
-  <img src="./figure/process.jpg" width="700"/>
+  <img src="./figure/process.jpg" width="800"/>
 </p>
 
 ## 📊 Results
