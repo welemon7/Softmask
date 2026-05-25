@@ -4,7 +4,9 @@ Under Review...
 
 
 ## 🧠 Method
-
+<p align="center">
+  <img src="./figure/process.jpg" width="700"/>
+</p>
 
 ## 📊 Results
 #### Evaluation on WRSD+
