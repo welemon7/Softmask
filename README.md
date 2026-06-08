@@ -1,7 +1,9 @@
 # Illumination-aware Softmask Guided Shadow Removal (JVCI'26)
 
 <div align="center">
-  [![paper](https://img.shields.io/badge/Softmask-Paper-red.svg)](https://github.com/welemon7/Softmask)
+  <a href="https://github.com/welemon7/Softmask">
+    <img src="https://img.shields.io/badge/Softmask-Paper-red.svg" alt="Paper">
+  </a>
 </div>
 
 
