@@ -1,9 +1,9 @@
-# Illumination-aware Softmask Guided Shadow Removal
+# Illumination-aware Softmask Guided Shadow Removal (JVCI'26)
 
-Under Review...
+[![paper](https://img.shields.io/badge/Softmask-Paper-red.svg)](https://github.com/welemon7/Softmask)
 
 
-## 🧠 Method
+## 🧠 Method Overview
 <p align="center">
   <img src="./figure/process.jpg" width="800"/>
 </p>
@@ -27,6 +27,7 @@ The evaluation results on WRSD+ are as follows
 
 #### Testing results
 The testing results on dataset [WRSD+](https://drive.google.com/drive/folders/1YqdkGQO2XRHkyyQ-rwxhNJu1a5oIE4Fl?usp=sharing)
+The testing softmask results on dataset [WRSD+](https://drive.google.com/drive/folders/1ofkdFkuYyTMR7UnxR32o3VuopzvFUEPI?usp=sharing)
 
 ## 🛠️ Requirements
 ```
@@ -78,9 +79,9 @@ Please download datasets from:
 
 * ISTD [[link](https://github.com/DeepInsight-PCALab/ST-CGAN)]
 
-* SRD 
+* SRD [[link](https://github.com/vinthony/ghost-free-shadow-removal)]
 
-* WRSD+
+* WRSD+ [[link](https://github.com/movingforward100/Shadow_R)]
 
 ## 🙏 Acknowledgement
 
