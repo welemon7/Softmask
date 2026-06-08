@@ -9,7 +9,7 @@
 
   <img src="https://img.shields.io/badge/PyTorch-2.7.1-yellow.svg" alt="PyTorch">
 
-  <img src="https://img.shields.io/badge/GPU-RTX%204090-grey.svg" alt="GPU">
+  <img src="https://img.shields.io/badge/GPU-RTX%204090-lightgrey.svg" alt="GPU">
 </div>
 
 ## 🧠 Introduction
