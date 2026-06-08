@@ -1,6 +1,8 @@
 # Illumination-aware Softmask Guided Shadow Removal (JVCI'26)
 
-[![paper](https://img.shields.io/badge/Softmask-Paper-red.svg)](https://github.com/welemon7/Softmask)
+<div align="center">
+  [![paper](https://img.shields.io/badge/Softmask-Paper-red.svg)](https://github.com/welemon7/Softmask)
+</div>
 
 
 ## 🧠 Method Overview
@@ -10,7 +12,7 @@
 
 ## 📊 Results
 #### Evaluation on WRSD+
-The evaluation results on WRSD+ are as follows
+The evaluation results on WRSD+ are as follows:
 | Method | PSNR | SSIM | RMSE |
 | :-- | :--: | :--: | :--: |
 | Input Image | 18.87 | 0.825 | 14.76 |
@@ -26,8 +28,9 @@ The evaluation results on WRSD+ are as follows
 </p>
 
 #### Testing results
-The testing results on dataset [WRSD+](https://drive.google.com/drive/folders/1YqdkGQO2XRHkyyQ-rwxhNJu1a5oIE4Fl?usp=sharing)
-The testing softmask results on dataset [WRSD+](https://drive.google.com/drive/folders/1ofkdFkuYyTMR7UnxR32o3VuopzvFUEPI?usp=sharing)
+The testing results on WRSD dataset [WRSD+](https://drive.google.com/drive/folders/1YqdkGQO2XRHkyyQ-rwxhNJu1a5oIE4Fl?usp=sharing)
+
+The testing softmask results on WRSD dataset [WRSD+_softmask](https://drive.google.com/drive/folders/1ofkdFkuYyTMR7UnxR32o3VuopzvFUEPI?usp=sharing)
 
 ## 🛠️ Requirements
 ```
