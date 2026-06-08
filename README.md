@@ -14,21 +14,7 @@
 
 ## 🧠 Introduction
 
-While recent learning-based methods have boosted the performance of shadow
-removal, a major challenge persists: most leading approaches rely on man
-ually annotated ground-truth masks as auxiliary priors. However, acquiring
-such manual annotations is costly, and model performance often degrades
-sharply without ground-truth mask guidance. To tackle this problem, we pro
-pose a multi-scale illumination-aware softmask generation method. Specif
-ically, we compute the luminance ratio between the shadow image and its
-shadow-free counterpart, followed by multi-scale filtering and fusion to pro
-duce a coherent softmask. This softmask is learned and predicted via a shal
-low network, which subsequently guides the restoration process. Compared
-to binary ground-truth masks, our approach yields softmask with improved
-coherence and more accurate preservation of edge gradients. Furthermore, we
-introduce a synergistic fusion of structural feature derived from self-extracted
-multi-scale representations using Gaussian kernels, which effectively retains
-structural information within shadowed regions.
+While recent learning-based methods have boosted the performance of shadow removal, a major challenge persists: most leading approaches rely on manually annotated ground-truth masks as auxiliary priors. However, acquiring such manual annotations is costly, and model performance often degrades sharply without ground-truth mask guidance. To tackle this problem, we propose a multi-scale illumination-aware softmask generation method. Specifically, we compute the luminance ratio between the shadow image and its shadow-free counterpart, followed by multi-scale filtering and fusion to produce a coherent softmask. This softmask is learned and predicted via a shallow network, which subsequently guides the restoration process. Compared to binary ground-truth masks, our approach yields softmask with improved coherence and more accurate preservation of edge gradients. Furthermore, we introduce a synergistic fusion of structural feature derived from self-extracted multi-scale representations using Gaussian kernels, which effectively retains structural information within shadowed regions.
 
 For more details, please refer to our [original paper](https://github.com/welemon7/Softmask)
 
