@@ -1,8 +1,20 @@
-# Illumination-aware Softmask Guided Shadow Removal (JVCI'26)
+<div align="center">
+  <strong>Illumination-aware Softmask Guided Shadow Removal</strong><br>
+  <em>JVCI'26</em>
+</div>
+
 <div align="center">
   <a href="https://github.com/welemon7/Softmask">
     <img src="https://img.shields.io/badge/Softmask-Paper-red.svg" alt="Paper">
   </a>
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/Python-3.8-blue.svg" alt="Python">
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/PyTorch-2.7.1-yellow.svg" alt="PyTorch">
 </div>
 
 
