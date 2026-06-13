@@ -137,3 +137,29 @@ Thanks to previous shadow removal works [ShadowFormer](https://github.com/guolan
 ## 📧 Contact
 
 For any questions, please open an issue or contact: [236004855@nbu.edu.cn](mailto:236004855@nbu.edu.cn).
+
+---
+
+## ⭐ Citation
+
+If you find this project useful, please consider citing us.
+
+```
+@article{WEI2026104865,
+title = {Illumination-aware softmask guided shadow removal},
+journal = {Journal of Visual Communication and Image Representation},
+pages = {104865},
+year = {2026},
+issn = {1047-3203},
+doi = {https://doi.org/10.1016/j.jvcir.2026.104865},
+url = {https://www.sciencedirect.com/science/article/pii/S1047320326001604},
+author = {Lianmeng Wei and Sihui Luo},
+}
+```
+
+---
+
+## ⚖️ License
+
+This code repository is release under MIT License.
+
