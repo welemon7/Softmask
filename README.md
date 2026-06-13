@@ -72,14 +72,26 @@ CUDA	12.8
 |-- WRSD+ Dataset
     |-- train
         |-- shadow # shadow image
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
         |-- non_shadow # shadow-free GT
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
     |-- test
         |-- shadow # shadow image
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
         |-- non_shadow # shadow-free GT
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
 ```
 
-2. Generate prior softmask based on multi-scale illumination-aware for network I -- softmask predictor.
-```python
+2. Generate prior softmask based on multi-scale illumination-aware as the objective of Network I. Run `softmaskAcquisition.py`.
+```bash
 python softmaskAcquisition.py # Prior Softmask Acquisition
 ```
 
@@ -90,32 +102,41 @@ test_dir   # testing set path
 softmask_dir # testing set path
 gpu: 0 # Our model can be trained using RTX 4090 GPU. You can also input "CUDA_VISIBLE_DEVICES=0,1 python train.py".
 ```
-4. Train the network I & II.
+
+4. Train the network I & II. Run `train_softmask.py` and `train.py`.
 ```bash
 python train_softmask.py # 100 epoch
 python train.py # 600 epoch
 ```
-ps: After training the "softPredict_model", please modify datasets, then train the "SR_model".
+ps: After training the `softPredict_model`, please modify datasets, then train the `SR_model`.
 ```
 |-- WRSD+ Dataset
     |-- train
         |-- shadow # shadow image
         |-- non_shadow # shadow-free GT
         |-- softmask_dir # predicted softmask
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
 
     |-- test
         |-- shadow # shadow image
         |-- non_shadow # shadow-free GT
         |-- softmask_dir # predicted softmask
+          |-- 0000.png
+          |-- 0001.png
+          |-- ...
 ```
 
 ### 🖊️ Test
+Run `test_softmask.py` and `test.py`.
 ```bash
 python test_softmask.py
 python test.py
 ```
 
 ###  🛣️ Eval
+Run `eval.py`.
 ```bash
 python eval.py
 ```
