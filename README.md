@@ -12,6 +12,9 @@
   <img src="https://img.shields.io/badge/GPU-RTX%204090-lightgrey.svg" alt="GPU">
 </div>
 
+<p align="center">
+  <img src="./figure/JVCI.png"width="800"/>
+</p>
 ---
 
 ## 🧠 Introduction
