@@ -16,10 +16,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3CiZBsqJNyQJzFAD2IzIQqpiV8Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/welemon2077/my_cv_storyCVPR/_4_JVCI_softmask/github"
+    "last_opened_file_path": "D:/welemon2077/my_cv_storyCVPR/_6_ECCV_InvFormer/InvFormer"
   }
 }]]></component>
   <component name="SharedIndexes">
