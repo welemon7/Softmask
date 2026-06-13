@@ -109,7 +109,7 @@ python test_softmask.py
 python test.py
 ```
 
-###  🛣️Eval
+###  🛣️ Eval
 ```bash
 python eval.py
 ```
@@ -153,7 +153,7 @@ year = {2026},
 issn = {1047-3203},
 doi = {https://doi.org/10.1016/j.jvcir.2026.104865},
 url = {https://www.sciencedirect.com/science/article/pii/S1047320326001604},
-author = {Lianmeng Wei and Sihui Luo},
+author = {Lianmeng Wei and Sihui Luo}
 }
 ```
 
