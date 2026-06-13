@@ -15,6 +15,7 @@
 <p align="center">
   <img src="./figure/JVCI.png"width="800"/>
 </p>
+
 ---
 
 ## 🧠 Introduction
