@@ -67,7 +67,7 @@ CUDA	12.8
 ## ▶️ Usage
 
 ### 🏋️ Train
-1. Download datasets 
+1. Download datasets.
 ```
 |-- WRSD+ Dataset
     |-- train
@@ -77,14 +77,20 @@ CUDA	12.8
         |-- shadow # shadow image
         |-- non_shadow # shadow-free GT
 ```
-2. You can modify the following terms in `option.py`
+
+2. Generate prior softmask based on multi-scale illumination-aware for network I -- softmask predictor.
+```python
+python softmaskAcquisition.py # Prior Softmask Acquisition
+```
+
+3. You can modify the following terms in `option.py`.
 ```python
 train_dir  # training set path
 test_dir   # testing set path
 softmask_dir # testing set path
 gpu: 0 # Our model can be trained using RTX 4090 GPU. You can also input "CUDA_VISIBLE_DEVICES=0,1 python train.py".
 ```
-3. Train the network
+4. Train the network I & II.
 ```bash
 python train_softmask.py # 100 epoch
 python train.py # 600 epoch
