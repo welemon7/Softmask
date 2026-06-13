@@ -1,7 +1,7 @@
 <h1 align="center">Illumination-aware Softmask Guided Shadow Removal (JVCI 2026)</h1>
 
 <div align="center">
-  <a href="https://github.com/welemon7/Softmask">
+  <a href="https://www.sciencedirect.com/science/article/abs/pii/S1047320326001604">
     <img src="https://img.shields.io/badge/Softmask-Paper-red.svg" alt="Paper">
   </a>
 
@@ -16,7 +16,7 @@
 
 While recent learning-based methods have boosted the performance of shadow removal, a major challenge persists: most leading approaches rely on manually annotated ground-truth masks as auxiliary priors. However, acquiring such manual annotations is costly, and model performance often degrades sharply without ground-truth mask guidance. To tackle this problem, we propose a multi-scale illumination-aware softmask generation method. Specifically, we compute the luminance ratio between the shadow image and its shadow-free counterpart, followed by multi-scale filtering and fusion to produce a coherent softmask. This softmask is learned and predicted via a shallow network, which subsequently guides the restoration process. Compared to binary ground-truth masks, our approach yields softmask with improved coherence and more accurate preservation of edge gradients. Furthermore, we introduce a synergistic fusion of structural feature derived from self-extracted multi-scale representations using Gaussian kernels, which effectively retains structural information within shadowed regions.
 
-For more details, please refer to our [original paper](https://github.com/welemon7/Softmask)
+For more details, please refer to our [original paper](https://www.sciencedirect.com/science/article/abs/pii/S1047320326001604)
 
 <p align="center">
   <img src="./figure/process.jpg" width="800"/>
