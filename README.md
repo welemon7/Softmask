@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/GPU-RTX%204090-lightgrey.svg" alt="GPU">
 </div>
 
+---
+
 ## 🧠 Introduction
 
 While recent learning-based methods have boosted the performance of shadow removal, a major challenge persists: most leading approaches rely on manually annotated ground-truth masks as auxiliary priors. However, acquiring such manual annotations is costly, and model performance often degrades sharply without ground-truth mask guidance. To tackle this problem, we propose a multi-scale illumination-aware softmask generation method. Specifically, we compute the luminance ratio between the shadow image and its shadow-free counterpart, followed by multi-scale filtering and fusion to produce a coherent softmask. This softmask is learned and predicted via a shallow network, which subsequently guides the restoration process. Compared to binary ground-truth masks, our approach yields softmask with improved coherence and more accurate preservation of edge gradients. Furthermore, we introduce a synergistic fusion of structural feature derived from self-extracted multi-scale representations using Gaussian kernels, which effectively retains structural information within shadowed regions.
@@ -21,6 +23,8 @@ For more details, please refer to our [original paper](https://www.sciencedirect
 <p align="center">
   <img src="./figure/process.jpg" width="800"/>
 </p>
+
+---
 
 ## 📊 Results
 #### Evaluation on WRSD+
@@ -40,19 +44,21 @@ The evaluation results on WRSD+ are as follows:
 </p>
 
 #### Testing results
-The testing results on WRSD dataset [WRSD+](https://drive.google.com/drive/folders/1YqdkGQO2XRHkyyQ-rwxhNJu1a5oIE4Fl?usp=sharing)
+The testing results on WRSD dataset [WRSD+](https://drive.google.com/drive/folders/1YqdkGQO2XRHkyyQ-rwxhNJu1a5oIE4Fl?usp=sharing).
 
-The testing softmask results on WRSD dataset [WRSD+_softmask](https://drive.google.com/drive/folders/1ofkdFkuYyTMR7UnxR32o3VuopzvFUEPI?usp=sharing)
+The testing softmask results on WRSD dataset [WRSD+_softmask](https://drive.google.com/drive/folders/1ofkdFkuYyTMR7UnxR32o3VuopzvFUEPI?usp=sharing).
+
+---
 
 ## 🛠️ Requirements
 ```
 Python	3.8
 PyTorch	2.7.1
 CUDA	12.8
+# more details, please refer to "requirements.txt"
 ```
 
-## 📂 Project Structure
-
+---
 
 ## ▶️ Usage
 
@@ -76,14 +82,32 @@ gpu: 0 # Our model can be trained using RTX 4090 GPU. You can also input "CUDA_V
 ```
 3. Train the network
 ```bash
-python train_softmask.py
-python train.py 
+python train_softmask.py # 100 epoch
+python train.py # 600 epoch
+```
+ps: After training the "softPredict_model", please modify datasets, then train the "SR_model".
+```
+|-- WRSD+ Dataset
+    |-- train
+        |-- shadow # shadow image
+        |-- non_shadow # shadow-free GT
+        |-- softmask_dir # predicted softmask
+
+    |-- test
+        |-- shadow # shadow image
+        |-- non_shadow # shadow-free GT
+        |-- softmask_dir # predicted softmask
 ```
 
 ### 🖊️ Test
 ```bash
 python test_softmask.py
 python test.py
+```
+
+###  🛣️Eval
+```bash
+python eval.py
 ```
 
 ### 📥 Dataset
@@ -98,10 +122,14 @@ Please download datasets from:
 
 * WRSD+ [[link](https://github.com/movingforward100/Shadow_R)]
 
+---
+
 ## 🙏 Acknowledgement
 
-Thanks to previous shadow removal works [ShadowFormer](https://github.com/guolanqing/shadowformer), [HomoFormer](https://github.com/jiexiaou/HomoFormer)... and 2742.
+Thanks to previous shadow removal works [ShadowFormer](https://github.com/guolanqing/shadowformer), [HomoFormer](https://github.com/jiexiaou/HomoFormer)... and "2742~🌌".
+
+---
 
 ## 📧 Contact
 
-For any questions, please open an issue or contact: [236004855@nbu.edu.cn](mailto:236004855@nbu.edu.cn)
+For any questions, please open an issue or contact: [236004855@nbu.edu.cn](mailto:236004855@nbu.edu.cn).
