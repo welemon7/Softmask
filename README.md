@@ -175,6 +175,7 @@ If you find this project useful, please consider citing us.
 @article{WEI2026104865,
 title = {Illumination-aware softmask guided shadow removal},
 journal = {Journal of Visual Communication and Image Representation},
+volume = {119},
 pages = {104865},
 year = {2026},
 issn = {1047-3203},
